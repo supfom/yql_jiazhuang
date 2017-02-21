@@ -1,0 +1,211 @@
+.condition{
+	width: 100%;
+	border-bottom: #999999 solid 1px;
+}
+.condition p span{
+		margin:0px 0px 0px 4%;
+}
+.condition p a{
+	padding: 4px 12px 4px 12px;
+	margin:0px 0px 0px 2%;
+ 	color: #999999;
+ 	line-height: 30px;
+}
+.condition p a:hover{
+	background:#CF0100;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.companyList{
+	width: 100%;
+	float: left;
+	margin: 30px 0px 30px 0px;
+}
+.companyList .list_group{
+	width: 100%;
+	float: left;
+	margin: 20px 0px 20px 0px;
+}
+.companyList .company_img{
+	width: 12.8%;
+	float: left;
+	text-align: center;
+	line-height: 2;
+}
+.companyList .company_img img{
+	max-width: 100%;
+}
+.companyList .company_img p{
+	margin-top: 10px;
+}
+.companyList .company_img span{
+	color: #CF0100;
+	padding: 0px 4px 0px 4px;
+}
+.companyList .company_decs{
+	width: 50%;
+	margin-left: 1%;
+	float: left;
+}
+.company_decs  ul li{
+	width: 100%;
+	line-height: 30px;
+	float: left;
+}
+.company_decs  ul li .namebg{
+	width: 80px;
+	text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 6px 5%;
+    color: #ffffff;
+}
+.company_decs  ul li .job{
+	float: left;
+	margin-top: 10px;
+}
+.company_decs  ul li .job .zhiw{
+	font-size: 14px;
+}
+.company_decs  .man .namebg{
+    background: #8BC5E6;
+}
+.company_decs  .woman .namebg{
+    background: #F0BBAD;
+}
+.companyList .company_decs ul li span{
+	float: left;
+	font-size: 20px;
+}
+.companyList .company_decs ul li label{
+	line-height: 1.8;
+}
+.companyList  .list_group i{
+    display: inline-block;
+    width: 32px;
+    vertical-align: middle;
+    height: 32px;
+    line-height: 32px;
+    background: url(../img/icon/icondesign.png);
+}
+.company_decs  .man .job .icon{
+   float: left;
+	background-position: -0px -8px;
+}
+.company_decs  .woman .job .icon{
+   float: left;
+	background-position: -0px -40px;
+}
+.company_decs ul li .experience .icon {
+    background-position: -32px -8px;
+}
+.company_decs ul li .amount .icon {
+    background-position: -59px -8px;
+}
+
+.company_decs ul li .project .icon {
+    background-position: -85px -8px;
+}
+.company_decs ul li .phne .icon {
+    background-position: -139px -8px;
+    }
+.company_decs ul li .times .icon {
+	background-position: -114px -8px;
+}
+.companyList .company_effect{
+	width: 31.2%;
+	float: left;
+}
+.companyList .company_effect .youyi{
+	font-size: 24px;
+}
+.companyList .company_effect .youyi i{
+	background-position: -171px -8px;
+    margin-right: 10px;
+}
+.companyList .company_effect .kaix i{
+	background-position: -204px -10px;
+}
+.page{
+	float: left;
+	text-align: center;
+	width: 100%;
+	line-height: 1.5;
+	margin: 40px 0px 60px 0px;
+	
+}
+.page a{
+	padding: 10px;
+}
+.page .on{
+	color: #CF0100;
+}
+/*媒体查询*/
+
+@media  screen and (max-width:900px) {
+	.condition{
+		margin:10px 0px 10px 0px;
+	}
+	.condition p span{
+		margin:0px 0px 0px 0px;
+	}
+	.condition p a{
+		padding: 4px 10px 4px 10px;
+		margin:0px 0px 0px 2%;
+	 	color: #999999;
+	 	line-height: 30px;
+	}
+	
+}
+@media  screen and (max-width:720px) {
+	.companyList .company_decs{
+		width: 55%;
+		float: left;
+		margin-left: 1%;
+	}
+	.companyList .company_img {
+	    width: 18%;
+	    float: left;
+	    text-align: center;
+	    line-height: 2;
+	}
+	.companyList .company_decs ul li span {
+	    font-size: 19px;
+	    color: #000000;
+	    line-height: 1.5;
+	}
+	.companyList .company_decs ul li label {
+	    line-height: 1.8;
+	}
+	.companyList .company_effect{
+		width: 23%;
+		float: left;
+		line-height: 1.8;
+	}
+}
+@media  screen and (max-width:480px) {
+	.companyList .company_decs{
+		width: 67%;
+		float: left;
+		margin-left: 1%;
+	}
+	.companyList .company_img {
+	    width: 27%;
+	    float: left;
+	    text-align: center;
+	    line-height: 2;
+	}
+	.companyList .company_decs ul li span {
+	    font-size: 19px;
+	    color: #000000;
+	    line-height: 1.5;
+	}
+	.companyList .company_decs ul li label {
+	    line-height: 1.8;
+	}
+	.companyList .company_effect{
+		width: 100%;
+		float: left;
+		line-height: 1.8;
+	}
+}

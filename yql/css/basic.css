@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* by jack basic.css */
+
+/* ------------------------------------------	重置样式 START	------------------------------------------ */
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,a{ margin:0; padding:0;}
+body,button,input,select,textarea{    font: 12px Arial, Microsoft YaHei,simsun, Helvetica, sans-serif;
+    color: #535353;
+    font-weight: 500;
+    line-height: 1.1;}
+button{ cursor:pointer;}
+h1,h2,h3,h4,h5,h6{ font-size:.75;}
+h1{ font-size:18px;}
+h2{ font-size:16px;}
+h3{ font-size:14px;}
+ul,ol{ list-style:none;}
+img{ border:0; vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0;}
+a{ color:#c0c0c0; text-decoration:none;}
+a:hover{ color:#C50605; text-decoration:none;}
+input[type="checkbox"],input[type="radio"]{vertical-align: middle;margin-top:-2px;}
+input[type=button],input[type=submit],button{cursor:pointer; overflow:visible;}			/*解决Input button padding 在IE里面不兼容问题*/
+textarea {padding:6px;outline: none;resize: none;}
+/* ------------------------------------------	重置样式 END	    ------------------------------------------ */
+
+/* ------------------------------------------	便捷样式 START	------------------------------------------ */
+.clear{clear:both;display:block; overflow:hidden; line-height:0; font-size:0; height:0;}
+.lfloat{float:left;}
+.rfloat{float:right;}
+.hide{ display:none !important;}
+.show{ display:block !important;}
+.border{border:1px solid #ccc;}
+
+/*---------文本 START-----------*/
+.tal{ text-align:left !important;}
+.tac{ text-align:center !important;}
+.tar{ text-align:right !important;}
+.vam{ vertical-align:middle;}
+.vat{ vertical-align:top;}
+
+.fs_12{ font-size:12px !important;}
+.fs_14{ font-size:14px !important;}
+.fs_16{ font-size:16px !important;}
+.fs_18{ font-size:18px !important;}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.wordBreak {							/*文字省略*/
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow:hidden;}
+/*--------文本 END----------*/
+
+/*---------外边距&内边距 START----------*/
+.margin12{margin: 12px!important;}
+.margin-t-6{margin-top:6px!important;}
+.margin-t-12{margin-top:12px!important;}
+.margin-t-24{margin-top:24px!important;}
+.margin-t-36{margin-top:36px!important;}
+.margin-r-6{margin-right:6px!important;}
+.margin-r-12{margin-right:12px!important;}
+.margin-r-24{margin-right:24px!important;}
+.margin-l-6{margin-left:6px!important;}
+.margin-l-12{margin-left:12px!important;}
+.margin-l-24{margin-left:24px!important;}
+.margin-b-6{margin-bottom:6px!important;}
+.margin-b-12{margin-bottom:12px!important;}
+.margin-b-24{margin-bottom:24px!important;}
+.padding12{padding: 12px!important;}
+.padding-t-6{padding-top:6px!important;}
+.padding-t-12{padding-top:12px!important;}
+.padding-t-24{padding-top: 24px!important}
+.padding-r-6{padding-right:6px!important;}
+.padding-r-12{padding-right:12px!important;}
+.padding-r-24{padding-right: 24px!important}
+.padding-b-6{padding-bottom:6px!important;}
+.padding-b-12{padding-bottom:12px!important;}
+.padding-b-24{padding-bottom: 24px!important}
+.padding-l-6{padding-left:6px!important;}
+.padding-l-12{padding-left:12px!important;}
+.padding-l-24{padding-left: 24px!important}
+.padding-l-36{padding-left: 36px!important}
+
+/*-------------外边距&内边距 END-------*/
+
+/* ------------------------------------------	便捷样式 END	    ------------------------------------------ */

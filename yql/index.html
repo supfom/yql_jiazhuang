@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="Description" content="这里添加的是描述性的内容"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes" />
+		<title>毅起来</title>
+		<link rel="stylesheet" href="css/basic.css"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/flexslider.css"/>
+		<script src="js/jquery-1.8.2.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--网站标题、登录------------------------------------>
+		<div class="head-search">
+			<div class="logo">
+				<a href="javascript:;" title="毅起来"><img src="img/logo.png"/></a>
+			</div>
+			<div class="head-top">
+			<ul>
+				<li>您好，欢迎登录毅起来!</li>
+				<li><a href="javasript:;" target="_blank"><span>登录</span></a></li>
+				<li><a href="javasript:;" target="_blank"><span>注册</span></a></li>
+				<li class="phone"><a href="javasript:;"><img src="img/icon/icon_phone.png"/>400-8672-611</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="clear"></div>
+		<!--网站导航                                                str------------------------------------>
+		<div class="nav">
+			<ul>
+				<li class="nav_col"><a class="on" href="index.html">首页</a></li>
+				<li><a href="lookDecoration.html" target="_blank">找装修</a></li>
+				<li><a href="findDesign.html" target="_blank">找设计</a></li>
+				<li><a href="http://www.shop.hydosky.com" target="_blank" >建材商城</a></li>
+				<li><a href="decorationAsk.html" target="_blank">装修问答</a></li>
+			</ul>	
+		</div>	
+		<div class="clear"></div>
+		<!--网站导航                                                end------------------------------------>
+		<!--网站主体                                                str------------------------------------>
+		<div class="continner">
+			<div class="main">
+				<!--主体目录------------------------------------>
+				<div class="main_left">
+					<a href="javascript:;" target="_blank"><img src="img/obviousdesign.png"/></a>
+				</div>
+				<!--banner------------------------------------>
+				<div class="main_middle">
+					 <div class="flexslider">
+				        <ul class="slides">
+				          <li><a href="javascript:;" target="_blank"><img src="img/slides/banner.png" /></a></li>
+				          <li><a href="javascript:;" target="_blank"><img src="img/slides/banner.png" /></a></li>
+				          <li><a href="javascript:;" target="_blank"><img src="img/slides/banner.png" /></a></li>
+				          <li><a href="javascript:;" target="_blank"><img src="img/slides/banner.png" /></a></li>
+				        </ul>
+				     </div>
+				</div>
+				<!--主体功能------------------------------------>
+				<div class="main_right">
+					<ul>
+						<li class="bor"><i></i>免费设计</li>
+						<li><b></b>免费报价</li>
+					</ul>
+					<div class="for">
+						<div class="for_sj">
+							<form class="fors" name="for" action="javascript:;" method="post">
+								<p>输入基本信息、免费获取专业设计方案</p>
+								<input type="text" id="sj_name" placeholder="您的称呼" onblur="formValidation_name();" />
+								<div class="area">
+									<input type="text" id="sj_area" placeholder="建筑面积" onblur="formValidation_area();"/>
+									<span class="dw">m<sup>2</sup></span>
+								</div>
+								<div class="local">
+									<select name="">
+										<option value="">一室</option>
+										<option value="">两室</option>
+										<option value="">三室</option>
+									</select>
+									<select name="">
+										<option value="">一厅</option>
+										<option value="">两厅</option>
+										<option value="">三厅</option>
+									</select>
+									<select name="">
+										<option value="">一卫</option>
+										<option value="">两卫</option>
+										<option value="">三卫</option>
+									</select>
+								</div>
+								<input type="text" id="sj_phone" placeholder="填写手机号码、报价结果将发送到您手机"/>
+								<input type="submit" value="立即申请" onclick="checkIput_sj();"/>
+							</form>
+						</div>
+						<div class="for_bj">
+							<form class="fors" name="for" action="javascript:;" method="post">
+								<p>输入基本信息、免费获取适合您的价格</p>
+								<input type="text" id="sj_name" placeholder="您的称呼" />
+								<div class="area">
+									<input type="text" id="sj_area" placeholder="建筑面积" />
+									<span class="dw">m<sup>2</sup></span>
+								</div>
+								<div class="local">
+									<select name="">
+										<option value="">一室</option>
+										<option value="">两室</option>
+										<option value="">三室</option>
+									</select>
+									<select name="">
+										<option value="">一厅</option>
+										<option value="">两厅</option>
+										<option value="">三厅</option>
+									</select>
+									<select name="">
+										<option value="">一卫</option>
+										<option value="">两卫</option>
+										<option value="">三卫</option>
+									</select>
+								</div>
+								<input type="text" id="sj_phone" placeholder="填写手机号码、报价结果将发送到您手机"/>
+								<input type="submit" value="立即申请"/>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--网站主体                                                end------------------------------------>
+			<!--个性设计                                                str------------------------------------>
+			<div class="home_bak">
+				<div class="personal_design por">
+					<div class="personal_design_img img_hover">
+						<img src="img/icon/icon_gxdz.png"/>
+						<p>个性设计包</p>
+					</div>
+					<div class="personal_design_text" style="display: block;">
+						不想再看千篇一律的装修风格？毅起来为您提供由指定设计师为您打造独一无二的家装设计方案,彰显个性,给你所想。
+					</div>
+				</div>
+				<div class="personal_design material_benefit">
+					<div class="personal_design_img">
+						<img src="img/icon/icon_sh.png"/>
+						<p>实惠材料包</p>
+					</div>
+					<div class="personal_design_text">
+						还在为高昂的装修费用捉急？试试毅起来为您贴心提供的实惠材料包,钱要花在刀刃上,话小钱,办大事。
+					</div>
+				</div>
+				<div class="personal_design standard_construction">
+					<div class="personal_design_img">
+						<img src="img/icon/icon_bz.png"/>
+						<p>标准施工包</p>
+					</div>
+					<div class="personal_design_text">
+						面对众多方案选择困难症都犯了？毅起来平台倾情奉献标准施工包,全方位把控,标准服务,专业装修。
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--个性设计                        end------------------------------------>
+			<!--装修案例                        str------------------------------------>
+			<div class="home_exaple">
+				<div class="exaple_title">
+					装修案例
+					<ul>
+						<li><a href="javascript:;" target="_blank">找装修</a></li>
+						<li><a href="javascript:;" target="_blank">找设计师</a></li>
+					</ul>
+				</div>
+				<div class="exaple_content">
+					<div class="exaple_content_left">
+						<a href="javascript:;" target="_blank"><img src="img/americanvintage.png"/></a>
+						<a href="javascript:;" target="_blank"><p>美式复古</p></a>
+					</div>
+					<div class="exaple_content_middle">
+						<div class="exaple_content_middle_top">
+							<div class="exaple_content_middle_top_left">
+								<a href="javascript:;" target="_blank"><img src="img/simplicity.png"/></a>
+								<a href="javascript:;" target="_blank"><p>古典简约</p></a>
+							</div>
+							<div class="exaple_content_middle_top_right">
+								<a href="javascript:;" target="_blank"><img src="img/modern.png"/></a>
+								<a href="javascript:;" target="_blank"><p>现代简约</p></a>
+							</div>
+						</div>
+						<div class="exaple_content_middle_bottom">
+							<a href="javascript:;" target="_blank"><img src="img/japanesestyle.png"/></a>
+							<a href="javascript:;" target="_blank"><p>日式简约</p></a>
+						</div>
+					</div>
+					<div class="exaple_content_right">
+						<a href="javascript:;" target="_blank"><img src="img/europeanclassic.png"/></a>
+						<a href="javascript:;" target="_blank"><p>欧式古典</p></a>
+					</div>
+				</div>
+				<!--人物简介                        str------------------------------------>
+				<div class="home_porsonal">
+					<ul>
+						<li>
+							<div class="base">
+								<img src="img/iconhead.png" alt="" />
+								<a href="">
+									<div class="base_link">
+										<p>千佳装饰</p>
+										<p>产品总监 </p>
+									</div>
+								</a>
+							</div>
+							<p>白百何</p>
+						</li>
+						<li>
+							<div class="base">
+								<img src="img/iconhead2.png" alt="" />
+								<a href="">
+									<div class="base_link">
+										<p>千佳装饰</p>
+										<p>设计总监</p>
+									</div>
+								</a>
+							</div>
+							<p>王小彬</p>
+						</li>
+						<li>
+							<div class="base">
+								<img src="img/iconhead3.png" alt="" />
+								<a href="">
+									<div class="base_link">
+										<p>千佳装饰</p>
+										<p>设计总监</p>
+									</div>
+								</a>
+							</div>
+							<p>汪晶晶</p>
+						</li>
+						<li>
+							<div class="base">
+								<img src="img/iconhead4.png" alt="" />
+								<a href="">
+									<div class="base_link">
+										<p>千佳装饰</p>
+										<p>设计总监</p>
+									</div>
+								</a>
+							</div>
+							<p>刘山武</p>
+						</li>
+						<li>
+							<div class="base">
+								<img src="img/iconhead5.png" alt="" />
+								<a href="">
+									<div class="base_link">
+										<p>千佳装饰</p>
+										<p>设计总监</p>
+									</div>
+								</a>
+							</div>
+							<p>陈枫</p>
+						</li>
+						<li>
+							<div class="base">
+								<img src="img/iconhead1.png" alt="" />
+								<a href="">
+									<div class="base_link">
+										<p>千佳装饰</p>
+										<p>设计总监</p>
+									</div>
+								</a>
+							</div>
+							<p>唐丹丹</p>
+						</li>
+					</ul>
+				</div>
+				<!--人物简介                        end------------------------------------>
+			</div>
+			<div class="clear"></div>
+			<!--装修案例                                       end----------------------------------------->
+			
+			<!--建材商城                                       str----------------------------------------->
+			<div class="home_shop">
+				<div class="shop_title">
+					建材商城
+				</div>
+				<div class="shop_content">
+					<div class="shop_left">
+						<div class="shop_text">
+							<ul>
+								<li><a href="javascript:;" target="_blank">水槽</a></li><li><a href="javascript:;" target="_blank">净水器</a></li>
+								<li><a href="javascript:;" target="_blank">热水器</a></li><li><a href="javascript:;" target="_blank">卫浴五金</a></li>
+								<li><a href="javascript:;" target="_blank">油烟机</a></li><li><a href="javascript:;" target="_blank">马桶盖</a></li>
+								<li><a href="javascript:;" target="_blank">花洒</a></li><li><a href="javascript:;" target="_blank">座便器</a></li>
+								<li><a href="javascript:;" target="_blank">开关</a></li><li><a href="javascript:;" target="_blank">墙纸</a></li>
+							</ul>	
+						</div>
+						<div class="shop_compy">
+							<ul>
+								<li><a href="javascript:;" target="_blank"><img src="img/company_kefei.png"/></a></li>
+								<li><a href="javascript:;" target="_blank"><img src="img/company_xingtuozhaoming.png"/></a></li>
+								<li><a href="javascript:;" target="_blank"><img src="img/company_zijinghuati.png"/></a></li>
+								<li><a href="javascript:;" target="_blank"><img src="img/company_keyspace.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="shop_middle">
+						<ul>
+							<li>
+								<a href="javascript:;" title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank"><img src="img/brand/product.png"/></a>
+								<a href="javascript:;" title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank">
+									<p>Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961...</p>
+									<p><label>￥</label><span>3850.00</span></p>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank"><img src="img/brand/product.png"/></a>
+								<a href="javascript:;" title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank">
+									<p>Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961...</p>
+									<p><label>￥</label><span>3850.00</span></p>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;"  title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank"><img src="img/brand/product.png"/></a>
+								<a href="javascript:;"  title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank">
+									<p>Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961...</p>
+									<p><label>￥</label><span>3850.00</span></p>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank"><img src="img/brand/product.png"/></a>
+								<a href="javascript:;" title="Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961..." target="_blank">
+									<p>Sacon/帅康 &nbsp;&nbsp;帅康CXW-220-TE6961...</p>
+									<p><label>￥</label><span>3850.00</span></p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="shop_right">
+						<div class="flexslider">
+					        <ul class="slides">
+					          <li><a href="javascript:;"><img src="img/slides/shopSlides1.png" /></a></li>
+					          <li><a href="javascript:;"><img src="img/slides/shopSlides1.png" /></a></li>
+					          <li><a href="javascript:;"><img src="img/slides/shopSlides1.png" /></a></li>
+					        </ul>
+					     </div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--建材商城                                       end----------------------------------------->
+			<!--装修直播                                       str----------------------------------------->
+			<div class="home_direct">
+				<div class="direct_title">
+					装修直播
+				</div>
+				<ul>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="img/direct.png"/></a>
+						<a href="javascript:;" target="_blank"><p>李小姐的家-客厅装修</p></a>
+					</li>
+					<li class="marp">
+						<a href="javascript:;" target="_blank"><img src="img/direct1.png"/></a>
+						<a href="javascript:;" target="_blank"><p>王先生的家-新房装修</p></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="img/direct2.png"/></a>
+						<a href="javascript:;" target="_blank"><p>谭先生的家-卧室装修</p></a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<!--装修直播                                       end----------------------------------------->
+			<!--装修问答                                       str----------------------------------------->
+			<div class="home_answer">
+				<div class="answer_title">
+					装修问答
+				</div>
+				<div class="answer_context">
+					<div class="answer_left">
+						<div class="answer_left_up">
+							<div class="answer_left_up_img">
+								<img src="img/accumulation.png"/>
+								<p>家装知识</p>
+							</div>
+							<ul>
+								<li><a href="javascript:;" title="实木地板应该如何保养" target="_blank">实木地板应该如何保养</a></li>
+								<li><a href="javascript:;" title="安全门的选择方法有哪些" target="_blank">安全门的选择方法有哪些</a></li>
+								<li><a href="javascript:;" title="家里插座松了怎么办" target="_blank">家里插座松了怎么办</a></li>
+								<li><a href="javascript:;" title="实木橱柜如何保养" target="_blank">实木橱柜如何保养</a></li>
+							</ul>
+						</div>
+						<div class="answer_left_down">
+							<div class="answer_left_down_img">
+								<img src="img/problem.png"/>
+								<p>家装知识</p>
+							</div>
+							<ul>
+								<li><a href="javascript:;" title="实木地板应该如何保养" target="_blank">实木地板应该如何保养</a></li>
+								<li><a href="javascript:;" title="安全门的选择方法有哪些" target="_blank">安全门的选择方法有哪些</a></li>
+								<li><a href="javascript:;" title="家里插座松了怎么办" target="_blank">家里插座松了怎么办</a></li>
+								<li><a href="javascript:;" title="实木橱柜如何保养" target="_blank">实木橱柜如何保养</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="answer_middle">
+						<a href="javascript:;" target="_blank"><img src="img/answer_img.png"/></a>
+						<a href="javascript:;" target="_blank" title="来点花草，营造东南亚风情"><p>来点花草，营造东南亚风情</p></a>
+					</div>
+					<div class="answwer_right">
+						<div class="answwer_right_context">
+							<label>&lceil; 小白装修    &rfloor; </label>
+							<p>让你从菜鸟变成专家</p>
+							<button>开始学习</button>								
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--装修直问答                                      end----------------------------------------->
+			<!--服务流程                                       str----------------------------------------->
+			<div class="home_service">
+				<div class="service_title">
+					服务流程
+				</div>
+				<ul>
+					<li>
+						<p>01</p>
+						<label>在线预约</label>
+						<img src="img/icon/service1.png"/>
+					</li>
+					<li>
+						<p>02</p>
+						<label>上门测量</label>
+						<img src="img/icon/service2.png"/>
+					</li>
+					<li>
+						<p>03</p>
+						<label>确认方案</label>
+						<img src="img/icon/service3.png"/>
+					</li>
+					<li>
+						<p>04</p>
+						<label>签订合同</label>
+						<img src="img/icon/service4.png"/>
+					</li>
+					<li>
+						<p>05</p>
+						<label>支付定金</label>
+						<img src="img/icon/service5.png"/>
+					</li>
+					<li>
+						<p>06</p>
+						<label>现场交底</label>
+						<img src="img/icon/service6.png"/>
+					</li>
+					<li>
+						<p>07</p>
+						<label>施工过程</label>
+						<img src="img/icon/service7.png"/>
+					</li>
+					<li>
+						<p>08</p>
+						<label>竣工验收</label>
+						<img src="img/icon/service8.png"/>
+					</li>
+					<li>
+						<p>09</p>
+						<label>用户评价</label>
+						<img src="img/icon/service9.png"/>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<!--服务流程                                      end----------------------------------------->
+		</div>
+		<!--网站结束                                                   str--------------------------------------->
+		<div class="foot">
+			<div class="footer">
+				<dl>
+					<dt>装修案例</dt>
+					<dd><a href="javascript:;" target="_blank">施工现场</a></dd>
+					<dd><a href="javascript:;" target="_blank">风格选择</a></dd>
+					<dd><a href="javascript:;" target="_blank">装修知识</a></dd>
+					<dd><a href="javascript:;" target="_blank">员工展示</a></dd>
+				</dl>
+				<dl>
+					<dt>装修公司</dt>
+					<dd><a href="javascript:;" target="_blank">设计案例</a></dd>
+					<dd><a href="javascript:;" target="_blank">设计团队</a></dd>
+				</dl>
+				<dl>
+					<dt>联系我们</dt>
+					<dd>联系地址：四川省绵阳市涪城区御中路68号</dd>
+					<dd>联系电话：400-8082-102</dd>
+					<dd>邮箱：yidekonggu@yd.com</dd>
+				</dl>
+				<dl>
+					<dd class="scode">
+						<img src="img/wxcode.png"/>
+						<p>扫码关注更多信息</p>					
+					</dd>
+				</dl>
+				<div class="clear"></div>
+			</div>
+		</foot>	
+		<!--网站结束                                                   str--------------------------------------->
+	</body>
+	<script src="js/jquery.flexslider-min.js" charset="utf-8"></script>
+	<script src="js/jquery-index.js"  charset="utf-8"></script>
+</html>

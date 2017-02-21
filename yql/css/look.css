@@ -1,0 +1,198 @@
+.condition{
+	width: 100%;
+	border-bottom: #999999 solid 1px;
+}
+.condition p span{
+		margin:0px 0px 0px 4%;
+}
+.condition p a{
+	padding: 4px 12px 4px 12px;
+	margin:0px 0px 0px 2%;
+ 	color: #999999;
+ 	line-height: 30px;
+}
+.condition p a:hover{
+	background:#CF0100;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.companyList{
+	width: 100%;
+	float: left;
+	margin: 30px 0px 30px 0px;
+}
+.companyList .list_group{
+	width: 100%;
+	float: left;
+	margin: 20px 0px 20px 0px;
+}
+.companyList .company_img{
+	width: 12.8%;
+	float: left;
+	text-align: center;
+	line-height: 2;
+	padding: 1%;
+}
+.companyList .company_img img{
+	max-width: 100%;
+}
+.companyList .company_img span{
+	color: #CF0100;
+	padding: 0px 4px 0px 4px;
+}
+.companyList .company_decs{
+	width: 70%;
+	margin-left: 1%;
+	float: left;
+}
+.companyList .company_decs ul li span{
+	font-size: 20px;
+	color: #000000;
+	line-height: 2;
+}
+.companyList .company_decs ul li label{
+	line-height: 2;
+}
+.company_decs  ul li label i{
+    display: inline-block;
+    margin-right: 4px;
+    width: 23px;
+    vertical-align: middle;
+    height: 27px;
+    line-height: 25px;
+    background: url(../img/company/icon.png) no-repeat -84px 0;
+}
+.company_decs ul li .amount .icon {
+	background-position: -106px 0;
+}
+
+.company_decs ul li .project .icon {
+	background-position: -130px 0;
+}
+.company_decs ul li .address .icon {
+    background-position: -177px 2px;
+}
+.company_decs ul li .phne .icon {
+    background-position: -44px 6px;
+    }
+.company_decs ul li .times .icon {
+	background-position: -155px 0;
+}
+.companyList .company_effect{
+	width: 13.4%;
+	float: left;
+}
+.company_effect p{
+	width: 100%;
+	text-align: center;
+	line-height: 2;
+}
+.company_effect p span{
+	color: #CF0100;
+	font-size: 20px;
+}
+.company_effect p a{
+	float: left;
+	color: #000000;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: #CF0100 solid 1px;
+}
+.company_effect p a:hover{
+	color: #FFFFFF;
+	background: #CF0100;
+}
+
+.page{
+	float: left;
+	text-align: center;
+	width: 100%;
+	line-height: 1.5;
+	margin: 40px 0px 60px 0px;
+	
+}
+.page a{
+	padding: 10px;
+}
+.page .on{
+	color: #CF0100;
+}
+/*媒体查询*/
+@media  screen and (max-width:1200px) {
+	.companyList .company_decs{
+		width: 62%;
+		float: left;
+	}
+	.companyList .company_effect{
+		width: 19%;
+		float: left;
+	}
+}
+@media  screen and (max-width:900px) {
+	.condition{
+		margin:10px 0px 10px 0px;
+	}
+	.condition p span{
+		margin:0px 0px 0px 0px;
+	}
+	.condition p a{
+		padding: 4px 10px 4px 10px;
+		margin:0px 0px 0px 2%;
+	 	color: #999999;
+	 	line-height: 30px;
+	}
+	
+}
+@media  screen and (max-width:720px) {
+	.companyList .company_decs{
+		width: 55%;
+		float: left;
+		margin-left: 1%;
+	}
+	.companyList .company_img {
+	    width: 18%;
+	    float: left;
+	    text-align: center;
+	    line-height: 2;
+	}
+	.companyList .company_decs ul li span {
+	    font-size: 19px;
+	    color: #000000;
+	    line-height: 1.5;
+	}
+	.companyList .company_decs ul li label {
+	    line-height: 1.8;
+	}
+	.companyList .company_effect{
+		width: 23%;
+		float: left;
+		line-height: 1.8;
+	}
+}
+@media  screen and (max-width:480px) {
+	.companyList .company_decs{
+		width: 67%;
+		float: left;
+		margin-left: 1%;
+	}
+	.companyList .company_img {
+	    width: 27%;
+	    float: left;
+	    text-align: center;
+	    line-height: 2;
+	}
+	.companyList .company_decs ul li span {
+	    font-size: 19px;
+	    color: #000000;
+	    line-height: 1.5;
+	}
+	.companyList .company_decs ul li label {
+	    line-height: 1.8;
+	}
+	.companyList .company_effect{
+		width: 100%;
+		float: left;
+		line-height: 1.8;
+	}
+}

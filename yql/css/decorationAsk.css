@@ -1,0 +1,392 @@
+.main-head{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.main-head-search{
+	float: left;
+	background: url(../img/201406211436155273.png) no-repeat;
+	background-size: 100%;
+	width: 70%;
+	height: 400px;
+}
+
+.search_input{
+	position: absolute;
+	width: 40%;
+    margin-top: 15%;
+    left: 15%;
+}
+.search_input input{
+	width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 12px;
+    border: none;
+    text-indent: 4%;
+}
+.search_input button{
+	border: none;
+} 
+.search_input .seach_icon{
+	float: left;
+    position: absolute;
+    top: 10px;
+    left: 88%;
+}
+
+.main-head-answer{
+	float: right;
+	width: 28.625%;
+	line-height: 1.5;
+	text-align: center;
+	height: 400px;
+	color: #FFFFFF;
+	background: url(../img/201406190138043879.png.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.main-head-answer p{
+	margin-top: 20%;
+}
+i{	
+	margin-right: 10px;
+    display: inline-block;
+    margin-right: 4px;
+    width: 30px;
+    vertical-align: middle;
+    height: 32px;
+    line-height: 32px;
+    background: url(../img/icon/icondesign.png) no-repeat;
+}
+.main-head-answer .myask,.main-head-answer .myanswer{
+	width: 52%;
+    margin: 0 auto;
+    border: #843837 solid 1px;
+    background: #C1BBB8;
+    padding:4px 8px 4px 8px;
+    margin-top:40px ;
+    border-radius: 6px;
+}
+.main-head-answer .myask a{
+	color: #CB2D2B;
+}
+.main-head-answer .myask a i{
+	background-position: -232px -8px;
+	margin-right: 10px;
+}
+
+.main-head-answer .myanswer a{
+	color: #F77D4D;
+}
+.main-head-answer .myanswer a i{
+	background-position: -276px -8px;
+}
+
+.main-body{
+	position: relative;
+	margin-top: 6%;
+}
+.main-body-step{
+	float: left;
+	width: 12.5%;
+	border: #E1E1E1 solid 1px;
+	-webkit-box-shadow: 3px 3px 10px #E1E1E1;
+	box-shadow: 2px 5px 10px #E1E1E1;
+}
+.main-body-step a{
+	color: #535353;
+}
+.main-body-step a:hover{
+	color: #CB2D2B;
+}
+.main-body-step .decPro a i{
+	background-position: -35px -41px;
+}
+.main-body-step .furPro a i{
+	background-position: -67px -41px;
+}
+.main-body-step .decMat a i{
+	background-position: -99px -41px;
+}
+.main-body-step .homeDecDes a i{
+	background-position: -129px -41px;
+}
+.main-body-step .safDes a i{
+	background-position: -160px -41px;
+}
+.main-body-step .tecZon a i{
+	background-position: -194px -41px;
+}
+.main-body-step .other a i{
+	background-position: -225px -41px;
+}
+.main-body-step ul li{
+	padding-left: 10%;
+	line-height: 40px;
+	vertical-align: middle;
+}
+.main-body-choice{
+	float: right;
+	width: 85%;
+}
+.main-body-choice-answer{
+	width: 100%;
+}
+.main-body-choice-answer .answer_wonder{
+	width: 66%;
+	float: left;
+}
+.main-body-choice-answer .answer_new{
+	width: 30%;
+	float: right;
+}
+.main-body-choice-answer .answer_new .new_title{
+	height: 40px;
+	color: #FFFFFF;
+	line-height: 40px;
+	background: url(../img/newBg.png) no-repeat;
+	background-size: 100%;
+}
+.main-body-choice-answer .answer_new p .newIcon{
+	margin-left: 10%;
+}
+.main-body-choice-answer .answer_new p i{
+	background-position: -316px -8px;
+}
+.main-body-choice-answer .answer_wonder .wonder_title{
+	height: 40px;
+	color: #FFFFFF;
+	line-height: 40px;
+	background: url(../img/wonderfulBg.png) no-repeat;
+	background-size: 100%;
+}
+.main-body-choice-answer .answer_wonder p .newIcon{
+	margin-left: 10%;
+}
+.main-body-choice-answer .answer_wonder p i{
+	background-position: -316px -8px;
+}
+.answer_wonder_text{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.answer_wonder_text_img,.answer_wonder_text_img{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.answer_wonder_text_img img,.answer_wonder_text_img img{
+	max-width: 100%;
+}
+.answer_wonder_text .answer_wonder_down_text{
+	width: 48%;
+	float: right;
+	line-height: 1.5;
+}
+.answer_wonder_text .answer_wonder_down_text .title{
+	text-align: center;
+	font-size: 16px;
+}
+.answer_wonder_text .answer_wonder_down_text .content{
+	margin-top: 2%;
+}
+.answer_new ul{
+	width: 100%;
+	margin-top: 5%;
+	float: left;
+}
+.answer_new ul li{
+	width: 100%;
+	float: left;
+	color: #535353;
+	font-size: 12px;
+	line-height: 30px;
+	list-style: inside; 
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+.answer_new ul li span{
+	float: right;
+}
+.answer_new ul li a{
+	width: 80%;
+	color: #535353;
+}
+.answer_new ul li a:hover{
+	color: #CF0100;
+}
+.product-reco{
+	height: 200px;
+	margin-top: 4%;
+	width: 100%;
+}
+.product-reco{
+	height: 40px;
+	color: #FFFFFF;
+	line-height: 40px;
+	background: url(../img/productBg.png) no-repeat;
+	background-size: 100%;
+}
+.product-reco .productIcon{
+	margin-left: 10%;
+}
+.product-reco .titlePro i{
+	background-position: -258px -41px;
+}
+
+.product-reco ul{
+	width: 100%;
+	float: left;	
+	margin-top: 5%;
+}
+.product-reco ul li{
+	text-align: center;
+ 	width: 18%;
+ 	float: left;
+ 	margin:0 2% 1% 5%;
+}
+.product-reco ul li a{
+	color: #535353;
+}
+.product-reco ul li img{
+	max-width: 100%;
+}
+.product-reco ul li p{
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow:hidden;
+}
+.product-reco ul li p label,.product-reco ul li p span{
+	color: #CF0100;
+}
+@media screen and (max-width:1136px ) {
+	.main-head-search{
+		height: 360px;
+	}
+	.main-head-answer{
+		height: 360px;
+	}
+}
+@media screen and (max-width:840px ) {
+	.main-body-choice-answer .answer_wonder {
+    	width: 100%;
+	}
+	.main-body-choice-answer .answer_new {
+	    width: 100%;
+	    margin-top: 2%;
+	}
+	.answer_new ul li{
+    	width: 45%;
+   		float: left;
+    }
+    .answer_new ul li:nth-child(2n){
+    	float: right;
+    }
+}
+@media screen and (max-width:840px ) {
+	.main-body-step {
+    	width: 100%;
+    }
+    .main-body-step ul li {
+    	float: left;
+	    line-height: 40px;
+	    width: 14%;
+	    padding-left:0%;
+    }
+    .main-body-choice {
+	    float: left;
+	    width: 100%;
+	}
+	.main-body-choice-answer .answer_wonder .wonder_title{
+		margin-top: 2%;
+	}
+	.answer_wonder_text_img, .answer_wonder_text_img{
+		text-align: left;
+	}
+	.answer_wonder_text .answer_wonder_down_text {
+	    width: 48%;
+	    margin-left: 2%;
+	    float: left;
+    }
+	.main-head-search{
+		height: 320px;
+	}
+	.main-head-answer{
+		height: 320px;
+	}
+}
+@media screen and (max-width:720px ) {
+	.main-head-search{
+		height: 280px;
+	}
+	.main-head-answer{
+		height: 280px;
+	}
+}
+@media screen and (max-width:720px ) {
+	.main-head-search{
+		width: 100%;
+	}
+	.main-head-answer{
+		width: 100%;
+		margin-top: 2%;
+	}
+	.search_input {
+	    position: absolute;
+	    width: 68%;
+	    margin-top: 15%;
+	    left: 15%;
+	}
+	.main-head-answer p {
+	    margin-top: 4%;
+	}
+}
+@media screen and (max-width:640px ) {
+	.main-body-step ul li {
+	    float: left;
+	    line-height: 40px;
+	    width: 30%;
+	    padding-left: 0%;
+	}
+	.answer_new ul li {
+	    width: 100%;
+	    float: left;
+	}
+	.product-reco ul li {
+	    width: 40%;
+	}
+	.answer_wonder_text_img, .answer_wonder_text_img {
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+	}
+	.answer_wonder_text .answer_wonder_down_text {
+	    width: 100%;
+	    margin-left:0%;
+	    float: left;
+	}
+}
+@media screen and (max-width:320px ) {
+	.main-head-search{
+		width: 100%;
+		height: 200px;
+	}
+	.main-head-answer{
+		width: 100%;
+		margin-top: 2%;
+	}
+	.search_input {
+	    position: absolute;
+	    width: 80%;
+	    margin-top: 18%;
+	    left: 10%;
+	}
+	.main-head-answer p {
+	    margin-top: 4%;
+	}
+}

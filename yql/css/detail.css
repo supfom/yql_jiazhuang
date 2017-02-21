@@ -1,0 +1,478 @@
+.company_mes {
+	padding: 30px 0 18px;
+}
+
+.comp_dec {
+	float: left;
+	padding-right: 30%;
+}
+
+.comp_dec h3 {
+	font-size: 28px;
+	color: #404040;
+}
+
+.comp_dec .label {
+	padding-top: 9px;
+}
+
+.comp_dec .label ul li {
+	float: left;
+	padding-right: 6px;
+}
+
+.comp_dec .label ul li.times {
+	padding-right: 24px;
+}
+
+.comp_dec .label ul li span {
+	display: block;
+	float: left;
+	height: 22px;
+	line-height: 22px;
+}
+
+.comp_dec .label ul li span.icon {
+	display: inline-block;
+	margin-right: 4px;
+	width: 22px;
+	background: url(../img/company/icon.png) no-repeat -84px 0;
+}
+
+.comp_dec .label ul li.amount span.icon {
+	background-position: -106px 0;
+}
+
+.comp_dec .label ul li.project span.icon {
+	background-position: -130px 0;
+}
+
+.comp_dec .label ul li.times span.icon {
+	background-position: -155px 0;
+}
+
+.evaluate {
+	float: left;
+}
+
+.evaluate ul li {
+	padding: 6px 6px 0 0;
+}
+
+.evaluate ul li div {
+	float: left;
+}
+
+.evaluate ul li div:first-child {
+	padding-right: 8px;
+}
+
+.evaluate ul li div.num {
+	padding-left: 8px;
+}
+
+.evaluate ul li div span.star {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/company/icon.png);
+}
+
+.evaluate ul li div span.star3 {
+	background-position: -15px 0;
+}
+
+.evaluate ul li div span.star6 {
+	background-position: -30px 0;
+}
+
+.company_nav {
+	float: left;
+	width: 100%;
+	background: #404040;
+}
+
+.company_nav ul li {
+	float: left;
+	width: 12%;
+}
+
+.company_nav ul li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.company_nav ul li a.on,
+.company_nav ul li a:hover {
+	background: #ff743d;
+}
+.company_introduce{
+	float: left;
+	width: 100%;
+	padding: 40px 0px 40px 0px;
+	border-bottom: #C0C0C0 solid 1px;
+}
+.company_introduce .company_introduce_img{
+	width: 22%;
+	float: left;
+}
+.company_introduce_img img{
+	max-width: 100%;
+}
+.company_introduce_text{
+	width: 40%;
+	margin-left: 1%;
+	float: left;
+}
+.company_introduce_text p{
+	line-height: 1.8;
+}
+.company_introduce_text .tilt{
+	color: #101010;
+	padding: 4px 0px 4px 0px;
+	font-size: 14px;
+}
+
+.company_introduce_text p label i{
+    display: inline-block;
+    margin-right: 4px;
+    width: 23px;
+    vertical-align: middle;
+    height: 27px;
+    line-height: 25px;
+    background: url(../img/company/icon.png);
+}
+.company_introduce_text p .adress .icon{
+	background-position: -177px 0;
+}
+.company_introduce_text p .mflf .icon {
+	background-position: -198px 0;
+}
+.company_introduce_text p .xxzf .icon {
+	background-position: -200px -27px;
+	margin-left: 20px;
+}
+.company_introduce_funct{
+	width: 22%;
+	margin-left: 4%;
+	margin-top: 32px;
+	float: left;
+}
+.company_introduce_funct p{
+	line-height: 2;
+}
+.company_introduce_funct .numPos{
+	color: #ff743d;
+}
+.company_introduce_funct p a{
+	float: left;
+	text-align: center;
+	background: #ff743d;
+	color: #FFFFFF;
+	padding: 4px 20px 4px 20px;
+	border-radius: 10px;
+}
+
+/*活动、业主点评  str   */
+.activity_owner{
+	float: left;
+	padding: 30px 0px 30px 0px;
+	border-bottom: #CCCCCC solid 1px;
+}
+.company_activity .title,.company_owner .title{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0px 10px 0px;
+}
+.company_activity{
+	float: left;
+	width: 50%;
+}
+.company_activity .flexslider .slides img{
+	max-width: 100%;
+}
+.company_owner{
+	float: right;
+	width: 45%;
+    padding-left: 5%;
+}
+.company_owner .more{
+	float: right;
+	font-weight: 100;
+	color: #000000;
+	padding-right: 4px;
+}
+.company_owner .more:hover{
+	color: #ff743d;
+}
+.company_owner .flexslider .slides img{
+	max-width: 100%;
+}
+
+.company_owner ul li{
+	float: left;
+	width: 100%;
+	border-bottom: #CCCCCC solid 1px;
+}
+.company_owner ul li p {
+	width: 100%;
+	float: left;
+	line-height: 2;
+}
+.company_owner ul li:last-child{
+	border-bottom: 0px;
+}
+.company_owner ul li p .framework{
+	float: left;
+}
+.company_owner ul li p .score{
+	float: right;
+	padding-right: 4px;
+}
+.company_owner ul li p .times{
+	float: left;
+}
+.company_owner ul li p .lklk{
+	float: right;
+	padding-right: 4px;
+}
+.company_owner ul li p .lklk label{
+	cursor: pointer;
+}
+.company_owner  span.star {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/company/icon.png);
+}
+
+.company_owner  span.star3 {
+	background-position: -15px 0;
+}
+
+.company_owner  span.star6 {
+	background-position: -30px 0;
+}
+.company_owner p label i{
+    display: inline-block;
+    margin-right: 4px;
+    width: 23px;
+    vertical-align: middle;
+    height: 27px;
+    line-height: 25px;
+    background: url(../img/company/icon.png) no-repeat -84px 0;
+}
+.company_owner p .service .icon {
+    background-position: -177px -26px;
+}
+.company_owner p .zan .icon {
+	background-position: -154px -27px;
+}
+.company_owner p .pl .icon {
+	background-position: -129px -27px;
+}
+.company_owner p .zan span,.company_owner p .pl span{
+	color: #CF0100;
+}
+/*活动、业主点评  end   */
+/*免费量房、设计团队           str*/
+.free_team{
+	float: left;
+	width: 100%;
+	padding: 30px 0px 30px 0px;
+	border-bottom: #CCCCCC solid 1px;
+}
+.company_free{
+	float: left;
+	width: 50%;
+}
+.company_team{
+	float: right;
+	width: 45%;
+    padding-left: 4%;
+}
+.company_free .more{
+	color: #FFFFFF;
+	float: right;
+}
+.company_free .more:hover{
+	color: #FFFFFF;
+}
+.company_free .title,.company_team .title{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0px 10px 0px;
+}
+.company_free .title a{
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-left:6%;
+	border-radius: 8px;
+	background: #ff743d;
+	font-weight: 100;
+	padding: 2px 8px 2px 8px;
+}
+.free_team .company_free dl {
+    margin-top: 24px;
+    float: left;
+    width: 20%;
+    line-height: 48px;
+    text-align: center;
+    color: #737373;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.company_free dl dt{
+	text-align: center;
+}
+.company_free .area dd{
+	margin-top: -5px;
+}
+.company_free dl dt dd{
+	
+}
+
+.company_team ul{
+	width: 100%;
+	float: left;
+}
+.company_team ul li p{
+	width: 100%;
+	text-align: center;
+}
+.company_team ul li {
+    width: 33%;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+.company_team ul li .base{
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.company_team ul li .base img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+.base_text{
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+    line-height: 2;
+    z-index: 10;
+    display: none;
+    border-radius: 50%;
+    padding: 27px;
+    margin-top: -100px;
+}
+.company_team ul li:hover .base_text{
+	display: block;
+    background: #616161;
+    color: #FFFFFF;
+	opacity: .6;
+}
+/*免费量房、设计团队           end*/
+/*设计方案         str*/
+.produce{
+	float: left;
+	width: 100%;
+	margin: 30px 0px 30px 0px;
+}
+.produce h3 {
+	font-size: 18px;
+}
+
+.produce ul {
+	padding-top: 20px;
+}
+
+.produce ul li {
+	float: right;
+	padding:0 3% 40px 0;
+	width: 30.3%;
+}
+/*
+.produce ul li.ex {
+	padding-right: 0;
+}*/
+
+.produce ul li img {
+	padding-bottom: 16px;
+	width: 100%;
+}
+
+.produce ul li h4 {
+	padding-bottom: 12px;
+}
+
+
+/*设计方案        end*/
+/*媒体查询*/
+@media  screen and (max-width: 1200px) {
+	.comp_dec {
+		float: left;
+		padding-right: 20%;
+	}
+	.company_introduce .company_introduce_img{
+		width: 100%;
+		text-align: center;
+	}
+	.company_introduce_text{
+		width: 72%;
+	}
+	.company_introduce_funct{
+		width: 24%;
+		margin-left: 2%;
+	}
+}
+@media  screen and (max-width: 900px) {
+	.comp_dec {
+		padding-right: 20%;
+	}
+	.company_nav ul li {
+		float: left;
+		width: 14%;
+	}
+	.company_activity{
+		float: left;
+		width: 100%;
+	}
+	.company_owner{
+		float: right;
+		width: 100%;
+	}
+	.company_free{
+		width: 100%;
+	}
+	.company_team{
+		width: 100%;
+	}
+	.produce ul li {
+		float: left;
+		padding: 0 4% 34px 0;
+		width: 46%;
+	}
+
+}
+@media  screen and (max-width: 720px) {
+	.comp_dec {
+		padding-right: 20%;
+	}
+}
+@media  screen and (max-width: 640px) {
+	.comp_dec {
+		padding-right: 0%;
+	}
+	.produce ul li {
+		float: left;
+		width: 100%;
+	}
+}
